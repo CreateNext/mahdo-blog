@@ -4,15 +4,16 @@
   "description": "Blog and content sharing web app developed by Hexagon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lekandev/mahdo-blog.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["mahdo-blog", "hexagon", "blog"],
+  "author": "Hexagon",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lekandev/mahdo-blog/issues"
   },
