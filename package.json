@@ -4,32 +4,22 @@
   "description": "Blog and content sharing web app developed by Hexagon",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lekandev/mahdo-blog.git"
+    "url": "git+https://github.com/Hexagon-Devs/mahdo-blog.git"
   },
-  "keywords": [
-    "mahdo-blog",
-    "hexagon",
-    "blog"
-  ],
-  "author": "Hexagon",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lekandev/mahdo-blog/issues"
+    "url": "https://github.com/Hexagon-Devs/mahdo-blog/issues"
   },
-  "homepage": "https://github.com/lekandev/mahdo-blog#readme",
+  "homepage": "https://github.com/Hexagon-Devs/mahdo-blog#readme",
   "dependencies": {
-    "argon2": "^0.28.2",
-    "cors": "^2.8.5",
-    "ejs": "^3.1.6",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "express-validator": "^6.12.1",
-    "mongoose": "^5.13.3",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0"
+    "mongoose": "^6.0.12"
   }
 }
