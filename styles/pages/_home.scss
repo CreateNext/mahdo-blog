@@ -1,0 +1,21 @@
+.hero {
+  .hero__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    font-size: 6rem;
+    line-height: 0;
+  }
+
+  .hero__info {
+    max-width: 200px;
+  }
+}
+
+.articles__title {
+  font-size: 3.5rem;
+  line-height: 0;
+  text-align: end;
+}

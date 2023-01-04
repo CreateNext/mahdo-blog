@@ -2,10 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: maven pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: $bgPrimary;
-  color: $textPrimary;
+  font-family: $textFont;
+  color: $textColor;
 }
 
 a {
@@ -13,14 +14,25 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
-
 h1,
 h2,
 h3 {
-  font-family: josefin slab semibold;
+  font-family: $titleFont;
+  text-transform: uppercase;
+}
+
+section {
+  padding: 1rem 3rem;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}
+
+a {
+  border-bottom: 2.5px solid $textColor;
+  padding-bottom: 2px;
 }
 
 * {

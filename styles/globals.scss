@@ -1,10 +1,7 @@
-@import "./core/variables";
 @import "./core/typography";
+@import "./core/variables";
 @import "./core/base";
 
-@import "./pages/index";
+@import "./components/post";
 
-@import "./components/nav";
-@import "./components/footer";
-
-@import "./shared/date";
+@import "./pages/home";

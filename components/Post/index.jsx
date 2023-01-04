@@ -1,5 +1,19 @@
+import Link from "next/link";
+
+/* eslint-disable @next/next/no-img-element */
 const Post = () => {
-  return <div>Post</div>;
+  return (
+    <div className="post">
+      <img src="img/banner.jpg" alt="banner" className="post__banner" />
+      <div className="post__info">
+        <h3 className="post__title">Year In Review?</h3>
+        <p className="post__desc">
+          Don&apos;t Know if I can call this a review, but it&apos;s something!
+        </p>
+        <Link href={"#"}>Read More</Link>
+      </div>
+    </div>
+  );
 };
 
 export default Post;
