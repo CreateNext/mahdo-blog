@@ -10,7 +10,10 @@ const Hero = () => {
         </p>
       </div>
 
-      <Post />
+      <div className="hero__featured">
+        <Post />
+        <Post />
+      </div>
     </section>
   );
 };

@@ -1,16 +1,22 @@
 .hero {
-  .hero__top {
+  &__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   &__title {
     font-size: 6rem;
     line-height: 0;
   }
 
-  .hero__info {
+  &__info {
     max-width: 200px;
+  }
+
+  &__featured {
+    display: flex;
+    column-gap: 50px;
   }
 }
 
