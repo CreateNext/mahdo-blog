@@ -1,0 +1,11 @@
+.nav {
+  padding: 1rem 3rem 0;
+  text-transform: uppercase;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $borderColor;
+    padding-bottom: 1rem;
+  }
+}
