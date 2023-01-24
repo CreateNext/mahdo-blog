@@ -12,7 +12,6 @@ const Hero = () => {
 
       <div className="hero__featured">
         <Post />
-        <Post />
       </div>
     </section>
   );

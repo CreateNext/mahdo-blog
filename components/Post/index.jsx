@@ -4,7 +4,7 @@ import Link from "next/link";
 const Post = () => {
   return (
     <div className="post">
-      <img src="img/banner.jpg" alt="banner" className="post__banner" />
+      <img src="img/preview.jpg" alt="banner" className="post__banner" />
       <div className="post__info">
         <h3 className="post__title">Year In Review?</h3>
         <p className="post__desc">
