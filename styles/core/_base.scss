@@ -19,6 +19,11 @@ h2,
 h3 {
   font-family: $titleFont;
   text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 25px;
 }
 
 section {

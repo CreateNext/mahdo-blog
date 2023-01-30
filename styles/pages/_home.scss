@@ -1,13 +1,15 @@
 .hero {
+  margin-bottom: 50px;
+
   &__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
   }
 
   &__title {
     font-size: 6rem;
-    line-height: 0;
   }
 
   &__info {
@@ -16,12 +18,18 @@
 
   &__featured {
     display: flex;
-    column-gap: 50px;
   }
 }
 
-.articles__title {
-  font-size: 3.5rem;
-  line-height: 0;
-  text-align: end;
+.articles {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+
+    .articles__title {
+      align-self: flex-end;
+      font-size: 3.5rem;
+      text-align: end;
+    }
+  }
 }
