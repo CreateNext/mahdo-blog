@@ -1,0 +1,11 @@
+.tags {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: fit-content;
+  padding: 5px;
+
+  &__btn {
+    text-transform: uppercase;
+  }
+}
