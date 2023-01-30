@@ -1,4 +1,4 @@
-import Post from "../Post";
+import Post, { FeaturedPost } from "../Post";
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
 
       <div className="hero__featured">
-        <Post />
+        <FeaturedPost />
       </div>
     </section>
   );
