@@ -1,21 +1,31 @@
-.post {
-  width: 100%;
-  max-width: 500px;
-  // display: flex;
-  // column-gap: 50px;
+.featured-post {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 50px;
 
   &__banner {
     width: 100%;
+    max-width: 500px;
     height: 400px;
   }
 
   &__info {
-    // align-self: flex-end;
-    // margin-bottom: 50px;
+    align-self: flex-end;
 
-    .post__title {
-      font-size: 3rem;
-      line-height: 0.1;
+    .featured-post__label {
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .featured-post__title {
+      font-size: 4rem;
+      margin: 0;
+
+      span {
+        &:last-child {
+          display: block;
+        }
+      }
     }
   }
 }
