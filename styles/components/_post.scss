@@ -1,6 +1,8 @@
 .post {
   width: 100%;
   max-width: 500px;
+  // display: flex;
+  // column-gap: 50px;
 
   &__banner {
     width: 100%;
@@ -8,6 +10,9 @@
   }
 
   &__info {
+    // align-self: flex-end;
+    // margin-bottom: 50px;
+
     .post__title {
       font-size: 3rem;
       line-height: 0.1;
