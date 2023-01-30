@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
+import Tags from "../components/Tags";
 
 export default function Home() {
   return (
@@ -14,8 +15,11 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
-        <section>
-          <h2 className="articles__title">Articles</h2>
+        <section className="articles">
+          <div className="articles__top">
+            <Tags />
+            <h2 className="articles__title">Articles</h2>
+          </div>
         </section>
       </main>
 
