@@ -1,0 +1,23 @@
+.about {
+  padding-bottom: 2rem;
+
+  &__title {
+    font-size: 6rem;
+
+    span {
+      display: block;
+      margin-left: 10%;
+    }
+  }
+
+  &__info {
+    display: flex;
+    gap: 50px;
+
+    .about__text {
+      max-width: 70%;
+      margin-top: 100px;
+      line-height: 1.35;
+    }
+  }
+}
