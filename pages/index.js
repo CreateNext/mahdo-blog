@@ -1,5 +1,7 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import MasonPosts from "../components/MasonPosts";
 import Nav from "../components/Nav";
 import Tags from "../components/Tags";
 
@@ -12,7 +14,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav />
       <main>
         <Hero />
         <section className="articles">
@@ -21,9 +22,8 @@ export default function Home() {
             <h2 className="articles__title">Articles</h2>
           </div>
         </section>
+        <MasonPosts />
       </main>
-
-      <footer></footer>
     </div>
   );
 }
