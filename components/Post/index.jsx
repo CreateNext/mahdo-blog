@@ -1,16 +1,14 @@
 import Link from "next/link";
 
 /* eslint-disable @next/next/no-img-element */
-const Post = () => {
+const Post = ({ banner, title, desc, linkHref }) => {
   return (
     <div className="post">
-      <img src="img/preview.jpg" alt="banner" className="post__banner" />
+      <img src={banner} alt="banner" className="post__banner" />
       <div className="post__info">
-        <h3 className="post__title">Year In Review?</h3>
-        <p className="post__desc">
-          Don&apos;t Know if I can call this a review, but it&apos;s something!
-        </p>
-        <Link href={"#"}>Read More</Link>
+        <h3 className="post__title">{title}</h3>
+        <p className="post__desc">{desc}</p>
+        <Link href={linkHref}>Read More</Link>
       </div>
     </div>
   );
